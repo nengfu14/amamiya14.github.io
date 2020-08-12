@@ -1,0 +1,318 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+.container
+{
+    max-width: 1950px;
+}
+
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.acgCtn
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.acgTop
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.acgIntro,.acgOrigin
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.acgIntro
+{
+    font-size: 150%;
+    width: 50%;
+    line-height: 2.5;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.acgOrigin
+{
+    color: white;
+    font-size: 150%;
+    width: 50%;
+    line-height: 2.5;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.acgIntro .title,.acgOrigin .title
+{
+    color: #FF0031;
+    font-size: 200%;
+}
+
+.acgRecommend
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10%;
+    padding-left: 3%;
+    margin-bottom: 10%;
+}
+
+.acgRecommendMobile
+{
+    display: none;
+    margin-top: 10%;
+    padding-left: 3%;
+    margin-bottom: 10%;
+}
+
+.acgRecommend .ctn,.acgRecommendMobile .ctn
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.acgRecommend .left,.acgRecommend .right,.acgRecommendMobile .left,.acgRecommendMobile .right
+{
+    font-size: 200%;
+}
+
+.acgRecommend .right
+{
+    color: white;
+}
+
+.acgRecommend .title,.acgRecommendMobile .title
+{
+    font-size: 150%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.acgRecommendMobile .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ctn .ctnLeft 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    text-align: right;
+}
+
+.ctn .ctnRight 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+.acgURL
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.acgURL .ctnLeft 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.acgURL .ctnLeft img
+{
+    width: 60%;
+    padding-bottom: 50%;
+}
+
+.acgURL .ctnRight 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acgURL .ctnRight .right
+{
+    font-size: 180%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 50%;
+}
+
+.acgURL a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:768px)
+{
+    .acgCtn
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .acgIntro,.acgOrigin
+    {
+        align-items: center;
+        width: 60%;
+    }
+
+    .acgIntro
+    {
+        margin-top: 10%;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+
+    .acgRecommend .left,.acgRecommend .right
+    {
+        font-size: 200%;
+    }
+
+    .acgURL .ctnRight .right
+    {
+        font-size: 150%;
+    }
+
+    .acgRecommendMobile
+    {
+        display: none;
+    }
+
+    .acgURL .ctnLeft img
+    {
+        width: 60%;
+        padding-bottom: 40%;
+    }
+
+    .acgCtn .ctnRight
+    {
+        justify-content: space-around;
+    }
+
+    .acgURL .ctnRight .right
+    {
+        font-size: 130%;
+        padding-top: 0;
+        padding-bottom: 40%;
+    }
+
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 250%;
+    }
+
+    .acgIntro
+    {
+        font-size: 120%;
+        width: 60%;
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        line-height: 1.6;
+    }
+
+    .acgOrigin
+    {
+        font-size: 120%;
+        width: 60%;
+        line-height: 1.6;
+        margin-top: 15%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+
+    .acgIntro .title,.acgOrigin .title
+    {
+        color: #FF0031;
+        font-size: 200%;
+    }
+
+    .acgRecommend .left,.acgRecommend .right
+    {
+        font-size: 130%;
+        line-height: 2.5;
+    }
+
+    .acgURL .ctnRight .right
+    {
+        justify-content: center;
+        align-items: center;
+        font-size: 100%;
+    }
+
+    .acgCtn
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .acgURL .ctnRight
+    {
+        padding-right: 0%;
+    }
+
+    .acgRecommendMobile .title
+    {
+        padding-right: 19%;
+    }
+
+}

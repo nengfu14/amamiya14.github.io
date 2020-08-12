@@ -1,0 +1,695 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.container
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    margin-left: 15%;
+}
+
+.kaguyaSCtn
+{
+    max-width: 1950px;
+    width: 100%;
+}
+
+/* Intro */
+.kaguyaSIntro
+{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.kaguyaSIntroLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.kaguyaSIntroLeft a
+{
+    width: 60%;
+    height: auto;
+}
+
+.kaguyaSIntroLeft .logo1
+{
+    width: 110%;
+    padding-top: 10%;
+}
+
+.kaguyaLogo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kaguyaSIntroLeft .logo2
+{
+    width: 90%;
+}
+
+.kaguyaSIntroLeft .logo3
+{
+    display: none;
+}
+
+.kaguyaSIntroRight
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.kaguyaSIntroRight a
+{
+    width: 60%;
+    height: auto;
+}
+
+.kaguyaSIntroRight .logo1
+{
+    width: 100%;
+}
+
+.kaguyaSIntroRight .logo2
+{
+    width: 80%;
+    margin-left: 20%;
+}
+
+/* Story */
+.kaguyaSstory
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 85%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.kaguyaSstory .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kaguyaSstory .left,.kaguyaSstory .right
+{
+    font-size: 180%;
+}
+
+.kaguyaSstory .title
+{
+    font-size: 150%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+
+.right
+{
+    color: white;
+}
+
+.kaguyaSstory .ctn .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 80px;
+    text-align: right;
+}
+
+.kaguyaSstory .ctn .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    color: white;
+}
+
+/* Story Mobile */
+.kaguyaSstoryMobile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    display: none;
+}
+
+.kaguyaSstoryMobile .left,.kaguyaSstoryMobile .right
+{
+    font-size: 110%;
+}
+
+.kaguyaSstoryMobile .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 180%;
+    padding-bottom: 5%;
+}
+
+.kaguyaSstoryMobile .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kaguyaSstoryMobile .ctn .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    text-align: right;
+}
+
+.kaguyaSstoryMobile .ctn .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+
+/* Chara */
+.kaguyaSChara
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 82%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.kaguyaSChara .title
+{
+    font-size: 230%;
+    padding-bottom: 5%;
+}
+
+.chara1,.chara2,.chara3,
+.chara4,.chara5,.chara6,
+.chara7
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 180%;
+}
+
+.chara3,.chara6,.chara7
+{
+    color: white;
+}
+
+.kaguyaSChara .ctn p
+{
+    padding-top: 5%;
+}
+
+.kaguyaSChara .ctn
+{
+    display: grid;
+    grid-template-areas: 
+    'c1 c2 c3 c3'
+    'c4 c5 c6 c7';
+    grid-row-gap: 15%;
+    margin-bottom: 15%;
+}
+
+.chara1 {grid-area: c1;}
+.chara2 {grid-area: c2;}
+.chara3 {grid-area: c3;}
+.chara4 {grid-area: c4;}
+.chara5 {grid-area: c5;}
+.chara6 {grid-area: c6;}
+.chara7 {grid-area: c7;}
+
+.chara1 img
+{
+    width: 100%;
+}
+
+.chara2 img
+{
+    width: 100%;
+}
+
+.chara3 img
+{
+    width: 48%;
+}
+
+.chara4 img
+{
+    width: 100%;
+}
+
+.chara5 img
+{
+    width: 100%;
+}
+
+.chara6 img
+{
+    width: 100%;
+}
+
+.chara7 img
+{
+    width: 100%;
+}
+
+/* Reason */
+.kaguyaSReason
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 82%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.kaguyaSReason .title
+{
+    font-size: 230%;
+    padding-bottom: 5%;
+}
+
+.kaguyaSReason .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kaguyaSReason .ctn .ctnLeft 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    width: 40%;
+    font-size: 150%;
+    text-align: left;
+    padding-right: 5%;
+}
+
+.kaguyaSReason .ctn .ctnRight 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    font-size: 150%;
+    line-height: 60px;
+    padding-left: 5%;
+}
+
+/* Collection & Opinion */
+.kaguyaSCollect_Opinion
+{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 15%;
+}
+
+.kaguyaSCollection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.kaguyaSCollection .title
+{
+    font-size: 200%;
+    padding-bottom: 5%;
+}
+
+.kaguyaSCollection img
+{
+    width: 50%;
+    border-radius: 40px;
+}
+
+.kaguyaSOpinion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kaguyaSOpinion .title
+{
+    font-size: 140%;
+}
+
+.kaguyaSOpinion p
+{
+    color: white;
+    font-size: 150%;
+    padding-bottom: 20%;
+    line-height: 50px;
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:768px)
+{
+    .pageTitle p
+    {
+        font-size: 250%;
+    }
+
+    /* Content */
+    .container
+    {
+        margin-left: 0;
+        overflow-x: hidden;
+    }
+
+    /* Intro */
+    .kaguyaSIntro
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .kaguyaSIntroLeft
+    {
+        flex-direction: row-reverse;
+        width: 85%;
+    }
+
+    .kaguyaSIntroLeft .logo1
+    {
+        width: 95%;
+        margin-left: 20%;
+    }
+
+    .kaguyaSIntroRight
+    {
+        margin-top: 10%;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .kaguyaSIntroRight .logo1
+    {
+        width: 80%;
+    }
+
+    .kaguyaSIntroRight .logo2
+    {
+        width: 60%;
+        margin-left: 0;
+    }
+
+    /* Story */
+    .kaguyaSstory
+    {
+        width: 100%;
+        padding-left: 3%;
+    }
+
+    .kaguyaSstory .left,.kaguyaSstory .right
+    {
+        font-size: 130%;
+    }
+
+    /* Chara */
+    .kaguyaSChara
+    {
+        width: 100%;
+    }
+
+    .kaguyaSChara .title
+    {
+        font-size: 200%;
+    }
+
+    .chara1,.chara2,.chara3,
+    .chara4,.chara5,.chara6,
+    .chara7
+    {
+        font-size: 150%;
+    }
+
+    /* Reason */
+    .kaguyaSReason
+    {
+        width: 100%;
+    }
+
+    .kaguyaSReason .ctn .ctnLeft 
+    {
+        font-size: 130%;
+    }
+
+    .kaguyaSReason .ctn .ctnRight
+    {
+        line-height: 58px;
+        font-size: 130%;
+    }
+
+    /* Collection & Opinion */
+    .kaguyaSCollect_Opinion
+    {
+        width: 100%;
+    }
+
+    .kaguyaSCollection .title
+    {
+        padding-bottom: 13%;
+    }
+
+    .kaguyaSCollection img
+    {
+        width: 80%;
+        border-radius: 40px;
+    }
+
+    .kaguyaSOpinion
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .kaguyaSOpinion p
+    {
+        line-height: 60px;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 200%;
+    }
+
+    /* Intro */
+    .kaguyaSIntroLeft
+    {
+        flex-direction: initial;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .kaguyaSIntroLeft .logo1
+    {
+        width: 150%;
+        margin-left: 10%;
+    }
+
+    .kaguyaSIntroLeft .logo2
+    {
+        display: none;
+    }
+
+    .kaguyaSIntroLeft .logo3
+    {
+        width: 80%;
+        padding-top: 15%;
+        padding-left: 20%;
+        display: block;
+    }
+
+    .kaguyaSIntroRight
+    {
+        justify-content: initial;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .kaguyaSIntroRight .logo1
+    {
+        width: 95%;
+        margin-left: 7%;
+    }
+
+    .kaguyaSIntroRight .logo2
+    {
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    /* Story */
+    .kaguyaSstory
+    {
+        width: 100%;
+    }
+
+    .kaguyaSstory .left,.kaguyaSstory .right
+    {
+        font-size: 100%;
+    }
+
+    .kaguyaSstory
+    {
+        display: none;
+    }
+
+    .kaguyaSstoryMobile
+    {
+        display: block;
+    }
+
+    /* Chara */
+    .kaguyaSChara
+    {
+        margin-bottom: 50%;
+    }
+
+    .kaguyaSChara .ctn
+    {
+        grid-template-areas: 
+        'c1 c2'
+        'c4 c5'
+        'c3 c6'
+        'c3 c7';
+        grid-row-gap: 5%;
+    }
+
+    .chara2,.chara5
+    {
+        color: white;
+    }
+
+    .chara3
+    {
+        color: black;
+    }
+
+    .chara3 img
+    {
+        width: 100%;
+    }
+
+    /* Reason */
+    .kaguyaSReason
+    {
+        margin-bottom: 40%;
+    }
+
+    .kaguyaSReason .ctn .ctnLeft 
+    {
+        line-height: 40px;
+        font-size: 120%;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .kaguyaSReason .ctn .ctnRight 
+    {
+        font-size: 120%;
+        line-height: 40px;
+    }
+
+    /* Collection & Opinion */
+    .kaguyaSCollect_Opinion
+    {
+        width: 100%;
+    }
+
+    .kaguyaSCollection img
+    {
+        width: 90%;
+    }
+
+    .kaguyaSOpinion .title
+    {
+        padding-bottom: 10%;
+    }
+
+    .kaguyaSOpinion p
+    {
+        font-size: 125%;
+        line-height: 35px;
+    }
+}

@@ -1,0 +1,1214 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+.container
+{
+    max-width: 1950px;
+}
+
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.right
+{
+    color: white;
+}
+
+.gamesCtn
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+.gamesTitle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.gamesTitle img
+{
+    width: 60%;
+    border-radius: 40px;
+}
+
+.gamesTitle .ctn
+{
+    color: #FF0031;
+    font-size: 200%;
+}
+
+/* Intro */
+.gamesIntro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesIntro .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.gamesIntro .title .left
+{
+    margin-right: 10%;
+}
+
+.gamesIntro .ctn
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 150%;
+    line-height: 3.0;
+}
+
+.gamesIntro .ctnLeft
+{
+    width: 40%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.gamesIntro .ctnRight
+{
+    padding-left: 10%;
+    width: 60%;
+}
+
+/* Features */
+.gamesFeatures
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesFeatures .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesFeatures .title .left
+{
+    margin-right: 10%;
+}
+
+.gamesFeatures .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 180%;
+    line-height: 3.0;
+}
+
+.gamesFeatures .ctnLeft
+{
+    width: 50%;
+    margin-left: 14%;
+    text-align: right;
+}
+
+.gamesFeatures .ctnRight
+{
+    width: 60%;
+    margin-right: 8%;
+}
+
+.gamesFeaturesMobile 
+{
+    display: none;
+}
+
+/* Change */
+.gamesChange
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesChange .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesChange .title .left
+{
+    margin-right: 10%;
+}
+
+.gamesChange .ctn
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 180%;
+    margin-left: 1.5%;
+    line-height: 3.0;
+}
+
+.gamesChange .ctnLeft
+{
+    width: 50%;
+    margin-left: 15%;
+    text-align: right;
+}
+
+.gamesChange .ctnRight
+{
+    width: 60%;
+    margin-right: 10%;
+}
+
+.gamesChangeMobile
+{
+    display: none;
+}
+
+/* Screenshot */
+.gamesShot
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesShot .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesShot .ctn
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.gamesShot .ctnLeft img
+{
+    width: 90%;
+    border: 1.5px solid grey;
+    border-radius: 50px;
+}
+
+.gamesShot .ctnRight img
+{
+    width: 90%;
+    border: 1.5px solid grey;
+    border-radius: 50px;
+}
+
+/* Persona 3 */
+.gamesP3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesP3 .title1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP3 .title1 .right
+{
+    color: #0058DE;
+    text-shadow: 2px 2px 5px white;
+    padding-left: 5%;
+    padding-right: 14%;
+}
+
+.gamesP3 .ctnCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.gamesP3 .ctnCenter img
+{
+    width: 90%;
+}
+
+.gamesP3 .title2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP3 .title2 .left
+{
+    margin-right: 10%;
+}
+
+.gamesP3 .ctn1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 300%;
+}
+
+.gamesP3 .ctn1 .ctnLeft
+{
+    width: 40%;
+    margin-left: 15%;
+    text-align: right;
+}
+
+.gamesP3 .ctn1 .ctnRight
+{
+    padding-left: 2%;
+    width: 60%;
+}
+
+.gamesP3 .ctn2
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.gamesP3 .ctn2 .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.gamesP3 .ctn2 .ctnLeft
+{
+    width: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 180%;
+    line-height: 80px;
+}
+
+.gamesP3 .ctn2 .ctnRight
+{
+    margin-left: 10%;
+    width: 60%;
+    font-size: 150%;
+    color: white;
+    line-height: 80px;
+}
+
+/* Persona 4 */
+.gamesP4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesP4 .title1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP4 .title1 .right
+{
+    color: #FFF001;
+    text-shadow: 2px 2px 5px white;
+    padding-left: 5%;
+    padding-right: 14%;
+}
+
+.gamesP4 .ctnCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.gamesP4 .ctnCenter img
+{
+    width: 90%;
+}
+
+.gamesP4 .title2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP4 .title2 .left
+{
+    margin-right: 10%;
+}
+
+.gamesP4 .ctn1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 7%;
+    font-size: 300%;
+}
+
+.gamesP4 .ctn1 .ctnLeft
+{
+    width: 50%;
+    text-align: right;
+}
+
+.gamesP4 .ctn1 .ctnRight
+{
+    padding-left: 2%;
+    width: 60%;
+}
+
+.gamesP4 .ctn1Mobile
+{
+    display: none;
+}
+
+.gamesP4 .ctn2
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.gamesP4 .ctn2 .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.gamesP4 .ctn2 .ctnLeft
+{
+    width: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 150%;
+    line-height: 80px;
+}
+
+.gamesP4 .ctn2 .ctnRight
+{
+    margin-left: 10%;
+    width: 60%;
+    font-size: 150%;
+    color: white;
+    line-height: 80px;
+}
+
+/* Persona 5 */
+.gamesP5
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    width: 88%;
+}
+
+.gamesP5 .title1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP5 .title1 .right
+{
+    color: #EF0006;
+    text-shadow: 2px 2px 5px white;
+    padding-left: 5%;
+    padding-right: 14%;
+}
+
+.gamesP5 .ctnCenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.gamesP5 .ctnCenter img
+{
+    width: 90%;
+}
+
+.gamesP5 .title2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.gamesP5 .title2 .left
+{
+    margin-right: 10%;
+}
+
+.gamesP5 .ctn1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 250%;
+}
+
+.gamesP5 .ctn1 .ctnLeft
+{
+    width: 50%;
+    margin-left: 8%;
+    text-align: right;
+}
+
+.gamesP5 .ctn1 .ctnRight
+{
+    padding-left: 1%;
+    width: 60%;
+}
+
+.gamesP5 .ctn1Mobile
+{
+    display: none;
+}
+
+.gamesP5 .ctn2
+{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.gamesP5 .ctn2 .title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.gamesP5 .ctn2 .ctnLeft
+{
+    width: 50%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 150%;
+    line-height: 80px;
+}
+
+.gamesP5 .ctn2 .ctnRight
+{
+    margin-left: 10%;
+    width: 60%;
+    font-size: 150%;
+    color: white;
+    line-height: 80px;
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:768px)
+{
+    .pageTitle p
+    {
+        font-size: 300%;
+    }
+
+    /* Content */
+    .gamesCtn
+    {
+        padding-left: 5%;
+    }
+
+    .gamesTitle
+    {
+        flex-direction: column;
+    }
+
+    .gamesTitle img
+    {
+        width: 85%;
+        padding-bottom: 5%;
+    }
+
+    .gamesTitle .ctn
+    {
+        padding-right: 2%;
+    }
+
+    /* Intro */
+    .gamesIntro
+    {
+        width: 100%;
+    }
+
+    .gamesIntro .ctnLeft
+    {
+        width: 50%;
+        margin-left: 0%;
+        line-height: 60px;
+    }
+
+    .gamesIntro .ctnRight
+    {
+        padding-left: 0;
+        margin-left: 5%;
+        width: 50%;
+        line-height: 60px;
+    }
+
+    /* Features */
+    .gamesFeatures
+    {
+        width: 100%;
+    }
+
+    .gamesFeatures .ctn
+    {
+        font-size: 140%;
+    }
+
+    .gamesFeatures .ctnLeft
+    {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .gamesFeatures .ctnRight
+    {
+        width: 60%;
+        margin-right: 2%;
+    }
+
+    /* Change */
+    .gamesChange
+    {
+        width: 100%;
+    }
+
+    .gamesChange .ctn
+    {
+        font-size: 140%;
+        margin-left: 0;
+    }
+
+    .gamesChange .ctnLeft
+    {
+        width: 50%;
+        padding-left: 3%;
+        margin-left: 7%;
+    }
+
+    .gamesChange .ctnRight
+    {
+        width: 55%;
+        padding-right: 2%;
+        margin-right: 2%;
+    }
+
+    /* Screenshot */
+    .gamesShot
+    {
+        width: 100%;
+    }
+
+    .gamesShot .ctn
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .gamesShot .ctnLeft img
+    {
+        margin-bottom: 5%;
+    }
+
+    /* Persona 3 */
+    .gamesP3
+    {
+        margin-top: 30%;
+        width: 100%;
+    }
+
+    .gamesP3 .title1 .right
+    {
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+
+    .gamesP3 .ctn1 .ctnLeft
+    {
+        width: 45%;
+        margin-left: 12%;
+    }
+
+    .gamesP3 .ctn2
+    {
+        margin-top: 25%;
+        margin-left: 0%;
+    }
+
+    .gamesP3 .ctn2 .ctnLeft
+    {
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    .gamesP3 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    /* Persona 4 */
+    .gamesP4
+    {
+        margin-top: 30%;
+        width: 100%;
+    }
+
+    .gamesP4 .title1 .right
+    {
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+
+    .gamesP4 .ctn1
+    {
+        margin-left: 7%;
+        margin-bottom: 10%;
+        font-size: 200%;
+    }
+
+    .gamesP4 .ctn1 .ctnLeft
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .gamesP4 .ctn2
+    {
+        margin-top: 20%;
+        margin-left: 0%;
+    }
+
+    .gamesP4 .ctn2 .ctnLeft
+    {
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    .gamesP4 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    /* Persona 5 */
+    .gamesP5
+    {
+        margin-top: 30%;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+
+    .gamesP5 .title1 .right
+    {
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+
+    .gamesP5 .ctn1
+    {
+        margin-left: 8%;
+        margin-bottom: 10%;
+        font-size: 200%;
+    }
+
+    .gamesP5 .ctn1 .ctnLeft
+    {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .gamesP5 .ctn2
+    {
+        margin-left: 0%;
+    }
+
+    .gamesP5 .ctn2 .ctnLeft
+    {
+        font-size: 150%;
+        line-height: 50px;
+    }
+
+    .gamesP5 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 150%;
+        line-height: 50px;
+    }
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 250%;
+    }
+
+    /* Content */
+    .gamesTitle
+    {
+        margin-top: 20%;
+    }
+
+    .gamesTitle img
+    {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    /* Intro */
+    .gamesIntro
+    {
+        margin-top: 25%;
+    }
+
+    .gamesIntro .title
+    {
+        font-size: 200%;
+    }
+
+    .gamesIntro .ctn
+    {
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 110%;
+    }
+
+    .gamesIntro .ctnLeft
+    {
+        line-height: 45px;
+    }
+
+    .gamesIntro .ctnRight
+    {
+        line-height: 45px;
+    }
+
+    /* Features */
+    .gamesFeatures
+    {
+        display: none;
+    }
+
+    .gamesFeaturesMobile
+    {
+        margin-top: 40%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+        width: 100%;
+    }
+
+    .gamesFeaturesMobile .title
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 200%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .gamesFeaturesMobile .title .left
+    {
+        margin-right: 10%;
+    }
+
+    .gamesFeaturesMobile .ctn
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 113%;
+    }
+
+    .gamesFeaturesMobile .ctnLeft
+    {
+        width: 50%;
+        padding-left: 0%;
+        text-align: right;
+        margin-left: 5%;
+        line-height: 50px;  
+    }
+
+    .gamesFeaturesMobile .ctnRight
+    {
+        width: 50%;
+        margin-right: 5%;
+        line-height: 50px;
+    }
+
+    /* Change */
+    .gamesChange
+    {
+        display: none;
+    }
+
+    .gamesChangeMobile
+    {
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+    }
+
+    .gamesChangeMobile .title
+    {
+        display: flex;
+        justify-content: center;
+        font-size: 200%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+
+    .gamesChangeMobile .title .left
+    {
+        margin-right: 10%;
+    }
+
+    .gamesChangeMobile .ctn
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 110%;
+        margin-left: 2%;
+    }
+
+    .gamesChangeMobile .ctnLeft
+    {
+        width: 50%;
+        text-align: right;
+        padding-left: 0%;
+        margin-left: 7%;
+        line-height: 50px;
+    }
+
+    .gamesChangeMobile .ctnRight
+    {
+        width: 55%;
+        padding-right: 0%;
+        margin-right: 5%;
+        line-height: 50px;
+    }
+
+    /* Screenshot */
+    .gamesShot
+    {
+        margin-top: 40%;
+    }
+
+    .gamesShot .title
+    {
+        font-size: 200%;
+    }
+
+    /* Persona 3 */
+    .gamesP3 .title1
+    {
+        font-size: 200%;
+    }
+
+    .gamesP3 .title1 .right
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .gamesP3 .ctnCenter img
+    {
+        width: 100%;
+    }
+
+    .gamesP3 .title2
+    {
+        font-size: 200%;
+    }
+
+    .gamesP3 .ctn1
+    {
+        font-size: 200%;
+    }
+
+    .gamesP3 .ctn1 .ctnLeft
+    {
+        width: 55%;
+        margin-left: 5%;
+    }
+
+    .gamesP3 .ctn2
+    {
+        margin-top: 40%;
+    }
+
+    .gamesP3 .ctn2 .ctnLeft
+    {
+        width: 50%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    .gamesP3 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    /* Persona 4 */
+    .gamesP4 .title1
+    {
+        font-size: 200%;
+    }
+
+    .gamesP4 .title1 .right
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .gamesP4 .ctnCenter img
+    {
+        width: 100%;
+    }
+
+    .gamesP4 .title2
+    {
+        font-size: 200%;
+    }
+
+    .gamesP4 .ctn1
+    {
+        display: none;
+    }
+
+    .gamesP4 .ctn1Mobile
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 8%;
+        font-size: 180%;
+    }
+
+    .gamesP4 .ctn1Mobile .ctnLeft
+    {
+        width: 50%;
+        text-align: right;
+    }
+
+    .gamesP4 .ctn1Mobile .ctnRight
+    {
+        padding-left: 2%;
+        width: 60%;
+    }
+
+    .gamesP4 .ctn2
+    {
+        margin-top: 20%;
+    }
+
+    .gamesP4 .ctn2 .ctnLeft
+    {
+        width: 50%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    .gamesP4 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    /* Persona 5 */
+    .gamesP5 .title1
+    {
+        font-size: 200%;
+    }
+
+    .gamesP5 .title1 .right
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .gamesP5 .ctnCenter img
+    {
+        width: 100%;
+    }
+
+    .gamesP5 .title2
+    {
+        font-size: 200%;
+    }
+
+    .gamesP5 .ctn1
+    {
+        display: none;
+    }
+
+    .gamesP5 .ctn1Mobile
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 160%;
+    }
+
+    .gamesP5 .ctn1Mobile .ctnLeft
+    {
+        width: 50%;
+        margin-left: 8%;
+        text-align: right;
+    }
+
+    .gamesP5 .ctn1Mobile .ctnRight
+    {
+        padding-left: 1%;
+        width: 60%;
+    }
+
+    .gamesP5 .ctn2
+    {
+        margin-top: 20%;
+    }
+
+    .gamesP5 .ctn2 .ctnLeft
+    {
+        width: 50%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    .gamesP5 .ctn2 .ctnRight
+    {
+        margin-left: 5%;
+        width: 55%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+}

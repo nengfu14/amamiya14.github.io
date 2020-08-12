@@ -1,0 +1,860 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+.container
+{
+    max-width: 1950px;
+}
+
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.right
+{
+    color: white;
+}
+
+.VACtn
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+/* Intro */
+.VAIntro
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.IntroLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.IntroLeft img
+{
+    margin: 7%;
+    width: 75%;
+}
+
+.IntroRight
+{
+    font-size: 180%;
+    color: white;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.IntroRight .title
+{
+    font-size: 200%;
+    color: #ff0031;
+}
+
+.IntroRightMobile
+{
+    display: none;
+}
+
+/* Experience */
+.VAExp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.VAExp .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    padding-right: 13%;
+}
+
+.VAExp span
+{
+    padding-left: 20%;
+    padding-right: 13%;
+}
+
+.VAExp .ctn
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.VAExp .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 1.6;
+}
+
+.VAExp .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    font-size: 150%;
+    color: white;
+    text-align: left;
+    padding-left: 7%;
+    line-height: 1.6;
+}
+
+/* Character */
+.VAChara
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.VAChara .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    padding-right: 13%;
+    margin-bottom: 5%;
+}
+
+.VAChara .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.VAChara p
+{
+    margin-bottom: 20%;
+}
+
+.VAChara .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 150%;
+    width: 40%;
+    text-align: left;
+}
+
+.VAChara .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 150%;
+    width: 50%;
+    color: white;
+}
+
+.VAChara .ctnRight img
+{
+    width: 90%;
+}
+
+/* Singer */
+.VASinger
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.VASinger .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    padding-right: 13%;
+    margin-bottom: 5%;
+}
+
+.VASinger .subtitle
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 250%;
+    padding-right: 12.5%;
+    margin-bottom: 5%;
+}
+
+.single10 {grid-area: s10;}
+.single9 {grid-area: s9;}
+.single8 {grid-area: s8;}
+.single7 {grid-area: s7;}
+.single6 {grid-area: s6;}
+.single5 {grid-area: s5;}
+.single4 {grid-area: s4;}
+.single3 {grid-area: s3;}
+.single2 {grid-area: s2;}
+.single1 {grid-area: s1;}
+
+.single10 img,.single9 img,.single8 img,
+.single7 img,.single6 img,.single5 img,
+.single4 img,.single3 img,.single2 img
+{
+    width: 75%;
+}
+
+.single1 img
+{
+    width: 25%;
+}
+
+.VASinger .ctnS
+{
+    display: grid;
+    grid-template-areas: 
+    's10 s9 s8'
+    's7 s6 s5'
+    's4 s3 s2'
+    's1 s1 s1';
+    grid-row-gap: 20px;
+    padding-left: 5%;
+    margin-bottom: 10%;
+}
+
+.VASinger .subtitle1
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 250%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+.album2 {grid-area: a2;}
+.album1 {grid-area: a1;}
+
+.album2 img,.album1 img
+{
+    width: 70%;
+}
+
+.VASinger .ctnA
+{
+    display: grid;
+    grid-template-areas: 
+    'a2 a1';
+    grid-row-gap: 20px;
+    margin-bottom: 10%;
+}
+
+/* Song */
+.VASong
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.VASong .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    padding-right: 13%;
+    margin-bottom: 10%;
+}
+
+.VASong .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.VASong .ctnLeft
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    width: 50%;
+    text-align: left;
+    padding-right: 5%;
+    line-height: 2.0;
+}
+
+.VASong .ctnRight
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 3.0;
+}
+
+/* Ending */
+.VAEnding
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.VAEnding .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    padding-right: 12%;
+    margin-bottom: 10%;
+}
+
+.VAEnding .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.VAEnding span
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.VAEnding .ctnLeft
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    width: 40%;
+    text-align: left;
+    padding-right: 8%;
+    line-height: 2.5;
+}
+
+.VAEnding .ctnRight
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    width: 40%;
+    color: white;
+    text-align: left;
+    line-height: 3.5;
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:768px)
+{
+    .pageTitle p
+    {
+        font-size: 300%;
+    }
+
+    .VACtn
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Intro */
+    .VAIntro
+    {
+        flex-direction: column;
+        margin-bottom: 30%;
+    }
+
+    .IntroLeft
+    {
+        width: 70%;
+    }
+
+    .IntroLeft img
+    {
+        width: 85%;
+    }
+
+    .IntroRight
+    {
+        display: none;
+    }
+
+    .IntroRightMobile
+    {
+        display: block;
+    }
+    
+    .IntroRightMobile
+    {
+        font-size: 160%;
+        line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .IntroRightMobile .title
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 200%;
+        margin-bottom: 10%;
+    }
+
+    .IntroRightMobile .ctn
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .IntroRightMobile .ctnLeft
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    .IntroRightMobile .ctnRight
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    /* Experience */
+    .VAExp
+    {
+        margin-bottom: 30%;
+    }
+
+    .VAExp .title
+    {
+        padding-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .VAExp .ctn
+    {
+        margin-left: 10%;
+    }
+
+    .VAExp .ctnLeft
+    {
+        margin-left: 7%;
+        line-height: 1.3;
+    }
+
+    .VAExp .ctnRight
+    {
+        width: 50%;
+        padding-left: 10%;
+        line-height: 1.9;
+    }
+
+    /* Character */
+    .VAChara
+    {
+        margin-bottom: 30%;
+    }
+
+    .VAChara .title
+    {
+        padding-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .VAChara .ctn
+    {
+        margin-left: 5%;
+    }
+
+    .VAChara .ctnLeft
+    {
+        margin-left: 0;
+        line-height: 1.3;
+    }
+
+    .VAChara .ctnLeft p
+    {
+        margin-bottom: 40%;
+    }
+
+    .VAChara .ctnRight
+    {
+        width: 45%;
+        padding-left: 5%;
+        line-height: 1.9;
+    }
+
+    /* Singer */
+    .VASinger .title
+    {
+        padding-right: 0;
+        margin-bottom: 10%;
+    }
+
+    .VASinger .subtitle
+    {
+        padding-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .VASinger .ctnLeft
+    {
+        margin-left: 0;
+        line-height: 1.3;
+    }
+
+    .VASinger .ctnS
+    {
+        display: grid;
+        grid-template-areas: 
+        's10 s9'
+        's8 s7'
+        's6 s5'
+        's4 s3'
+        's2 s1';
+        grid-row-gap: 20px;
+        margin-bottom: 10%;
+    }
+
+    .single1 img
+    {
+        width: 75%;
+    }
+
+    .VASinger .subtitle1
+    {
+        padding-left: 3%;
+        padding-right: 0;
+        margin-bottom: 5%;
+    }
+
+    .album2 img,.album1 img
+    {
+        width: 76%;
+    }
+
+    .VASinger .ctnS
+    {
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+
+    .VASinger .ctnA
+    {
+        margin-left: 15%;
+    }
+
+    /* Song */
+    .VASong 
+    {
+        margin-bottom: 30%;
+    }
+
+    .VASong .title
+    {
+        padding-right: 0;
+        margin-bottom: 10%;
+    }
+
+    .VASong .ctn
+    {
+        margin-left: 10%;
+    }
+
+    .VASong .ctnLeft
+    {
+        line-height: 1.6;
+        padding-right: 0;
+        width: 45%;
+    }
+
+    .VASong .ctnRight
+    {
+        line-height: 2.3;
+    }
+
+    /* Ending */
+    .VAEnding .title
+    {
+        padding-right: 0;
+        margin-bottom: 10%;
+    }
+
+    .VAEnding .ctn
+    {
+        margin-left: 7%;
+    }
+
+    .VAEnding .ctnLeft
+    {
+        line-height: 2.0;
+        padding-right: 0;
+        width: 40%;
+    }
+
+    .VAEnding .ctnRight
+    {
+        width: 50%;
+        padding-left: 5%;
+        line-height: 2.2;
+    }
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 225%;
+    }
+
+    /* Intro */
+    .IntroLeft
+    {
+        width: 100%;
+    }
+
+    .IntroLeft img
+    {
+        width: 90%;
+    }
+
+    .IntroRightMobile
+    {
+        font-size: 110%;
+        width: 100%;
+    }
+
+    .IntroRightMobile .ctnLeft
+    {
+        width: 40%;
+        margin-left: 15%;
+        line-height: 2.5;
+    }
+
+    .IntroRightMobile .ctnRight
+    {
+        width: 70%;
+        margin-right: 0;
+        line-height: 2.5;
+    }
+
+    /* Experience */
+    .VAExp .title
+    {
+        font-size: 200%;
+    }
+
+    .VAExp .ctnLeft
+    {
+        font-size: 110%;
+    }
+
+    .VAExp .ctnRight
+    {
+        font-size: 110%;
+    }
+
+    /* Character */
+    .VAChara .title
+    {
+        font-size: 200%;
+        margin-bottom: 10%;
+    }
+
+    .VAChara .ctnLeft
+    {
+        font-size: 110%;
+        justify-content: center;
+    }
+
+    .VAChara .ctnLeft img
+    {
+        width: 100%;
+    }
+
+    .VAChara .ctnRight
+    {
+        font-size: 110%;
+    }
+
+    .VAChara .ctnRight img
+    {
+        width: 70%;
+    }
+
+    /* Singer */
+    .VASinger .title
+    {
+        font-size: 200%;
+    }
+
+    .VASinger .subtitle
+    {
+        font-size: 180%;
+        margin-bottom: 10%;
+    }    
+
+    .VASinger .ctnS
+    {
+        grid-template-areas: 
+        's10''s9''s8''s7''s6''s5''s4''s3''s2''s1';
+    }
+
+    .single10 img,.single9 img,.single8 img,
+    .single7 img,.single6 img,.single5 img,
+    .single4 img,.single3 img,.single2 img,
+    .single1 img
+    {
+        width: 85%;
+    }
+
+    .VASinger .subtitle1
+    {
+        font-size: 200%;
+        padding-left: 6%;
+    }
+
+    .album2 img,.album1 img
+    {
+        width: 85%;
+    }
+
+    .VASinger .ctnA
+    {
+        margin-left: 12%;
+        grid-template-areas: 
+        'a2''a1';
+    }
+
+    /* Song */
+    .VASong .title
+    {
+        font-size: 200%;
+    }
+
+    .VASong .ctnLeft
+    {
+        font-size: 130%;
+        line-height: 2.0;
+        width: 50%;
+        padding-right: 7.5%;
+    }
+
+    .VASong .ctnRight
+    {
+        font-size: 120%;
+        line-height: 2.0;
+    }
+
+    /* Ending */
+    .VAEnding .title
+    {
+        font-size: 200%;
+    }
+
+    .VAEnding .ctnLeft
+    {
+        font-size: 125%;
+        line-height: 1.6;
+        padding-right: 0;
+    }
+
+    .VAEnding .ctnRight
+    {
+        font-size: 125%;
+        line-height: 2.0;
+        margin-left: 10%;
+        padding-left: 0;
+    }
+}

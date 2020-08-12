@@ -1,0 +1,570 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.container
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+}
+
+.kaguyaCtn
+{
+    max-width: 1950px;
+    margin-left: 15%;
+    margin-right: 5%;
+    display: grid;
+    width: 80%;
+    grid-template-areas: 
+    'p1 p2 p2'
+    'p3 p4 p4'
+    'p3 p5 p6'
+    'p7 p8 p8'
+    'p9 p10 p10'
+    'p11 p11 p11';
+    
+}
+
+.kaguyaP1,.kaguyaP2,.kaguyaP3,
+.kaguyaP4,.kaguyaP5,.kaguyaP6,
+.kaguyaP7,.kaguyaP8,.kaguyaP9,
+.kaguyaP10
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 120%;
+    line-height: 50px;
+    margin-bottom: 10%;
+}
+
+/* Part 1 */
+.kaguyaP1
+{
+    grid-area: p1;
+    margin-top: 5%;
+    width: 90%;
+}
+
+/* Part 2 */
+.kaguyaP2
+{
+    grid-area: p2;
+    color: #FF0031;
+    font-size: 250%;
+    width: 80%;
+}
+
+/* Part 3 */
+.kaguyaP3
+{
+    grid-area: p3;
+    width: 70%;
+    font-size: 150%;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+/* Part 4 */
+.kaguyaP4
+{
+    grid-area: p4;
+    font-size: 150%;
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+    justify-self: flex-start;
+}
+
+/* Part 5 */
+.kaguyaP5
+{
+    grid-area: p5;
+    justify-content: flexe;
+    align-items: center;
+    color: #FF0031;
+    font-size: 275%;
+    margin-bottom: 20%;
+}
+
+/* Part 6 */
+.kaguyaP6
+{
+    grid-area: p6;
+    margin-bottom: 20%;
+}
+
+.kaguyaCtn .kaguyaP6 img
+{
+    width: 40%;
+}
+
+/* Part 7 */
+.kaguyaP7
+{
+    grid-area: p7;
+    width: 70%;
+    font-size: 150%;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+/* Part 8 */
+.kaguyaP8
+{
+    grid-area: p8;
+    color: white;
+    font-size: 150%;
+    margin-left: 10%;
+    width: 90%;
+}
+
+/* Part 9 */
+.kaguyaP9
+{
+    grid-area: p9;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.kaguyaP9 p
+{
+    margin-bottom: 5%;
+}
+
+.kaguyaP9 img
+{
+    width: 90%;
+    border-radius: 50px;
+}
+
+/* Part 10 */
+.kaguyaP10
+{
+    grid-area: p10;
+    align-items: flex-start;
+}
+
+.kaguyaP10 p
+{
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+.kaguyaP10 a,.kaguyaP10 p
+{
+    text-decoration: none;
+    color: #FF0031;
+    font-size: 150%;
+}
+
+.kaguyaP10 a,.kaguyaP10 img
+{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 50px;
+}
+
+.kaguyaP10_1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Part 11 */
+.kaguyaP11
+{
+    grid-area: p11;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.kaguyaP11_title
+{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.kaguyaP11 span
+{
+    justify-content: center;
+    width: 30%;
+}
+
+.kaguyaP11 p,.kaguyaP11 span
+{
+    font-size: 200%;
+}
+
+.kaguyaP11 span
+{
+    display: none;
+}
+
+.kaguyaP11_title .right
+{
+    color: white;
+}
+
+.kaguyaP11_1，.kaguyaP11_2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.kaguyaP11_1 img, .kaguyaP11_2 img
+{
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+/* Resposnive Tablet */
+@media only screen and (max-width:768px)
+{
+    .pageTitle p
+    {
+        font-size: 250%;
+    }
+
+    /* Content */
+    .kaguyaCtn
+    {
+        margin-left: 5%;
+        width: 85%;
+        grid-template-areas: 
+        'p1 p1 p2 p2'
+        'p1 p1 p5 p6'
+        'p3 p3 p4 p4'
+        'p7 p7 p8 p8'
+        'p9 p9 p10 p10'
+        'p11 p11 p11 p11';
+    }
+
+    /* Part 2 */
+    .kaguyaP2
+    {
+        margin-left: 10%;
+        margin-top: 20%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    /* Part 3 */
+    .kaguyaP3
+    {
+        justify-content: flex-start;
+        margin-left: 0;
+        font-size: 150%;
+        width: 90%;
+        margin-bottom: 40%;
+    }
+
+    /* Part 4 */
+    .kaguyaP4
+    {
+        justify-content: flex-start;
+        margin-left: 15%;
+        margin-bottom: 50%;
+        width: 90%;
+    }
+
+    /* Part 5 */
+    .kaguyaP5
+    {
+        justify-content: flex-end;
+        font-size: 200%;
+        width: 100%;
+        margin-left: 20%;
+        margin-bottom: 70%;
+    }
+
+    /* Part 6 */
+    .kaguyaP6
+    {
+        margin-bottom: 70%;
+    }
+
+    .kaguyaCtn .kaguyaP6 img
+    {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .kaguyaP7
+    {
+        font-size: 155%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Part 8 */
+    .kaguyaP8
+    {
+        font-size: 165%;
+        margin-left: 15%;
+        margin-bottom: 50%;
+    }
+
+    /* Part 9 */
+    .kaguyaP9
+    {
+        font-size: 150%;
+        margin-bottom: 50%;
+    }
+
+    .kaguyaP9 img
+    {
+        width: 100%;
+    }
+
+    /* Part 10 */
+    .kaguyaP10
+    {
+        font-size: 110%;
+        margin-bottom: 50%;
+        margin-left: 15%;
+    }
+
+    .kaguyaP10_1
+    {
+        flex-direction: column;
+    }
+
+    .kaguyaP10 img
+    {
+        width: 100%;
+    }
+
+    /* Part 11 */
+    .kaguyaP11 p
+    {
+        display: none;
+    }
+
+    .kaguyaP11_title span
+    {
+        display: block;
+    }
+
+    .kaguyaP11_1
+    {
+        flex-direction: column;
+    }
+
+    .kaguyaP11_2
+    {
+        flex-direction: column;
+    }
+
+    .kaguyaP11_1 img, .kaguyaP11_2 img
+    {
+        margin-left: 5%;
+        width: 90%;
+        border: 1px solid grey;
+    }
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 230%;
+    }
+
+    .kaguyaCtn
+    {
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        width: 95%;
+        padding-left: 5%;
+        grid-template-areas: 
+        'p1 p1'
+        'p2 p2'
+        'p5 p6'
+        'p3 p4'
+        'p7 p8'
+        'p9 p9'
+        'p10 p10'
+        'p11 p11';
+    }
+    
+    /* Part 1 */
+    .kaguyaP1
+    {
+        width: 95%;
+    }
+
+    /* Part 2 */
+    .kaguyaP2
+    {
+        width: 100%;
+        font-size: 200%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+
+    /* Part 3 */
+    .kaguyaP3
+    {
+        width: 90%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    /* Part 4 */
+    .kaguyaP4
+    {
+        width: 80%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    /* Part 5 */
+    .kaguyaP5
+    {
+        justify-content: center;
+        align-content: center;
+        font-size: 180%;
+        margin-left: 0;
+        margin-bottom: 30%;
+    }
+
+    /* Part 6 */
+    .kaguyaP6
+    {
+        margin-bottom: 30%;
+        width: 90%;
+    }
+
+    /* Part 7 */
+    .kaguyaP7
+    {
+        width: 100%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+
+    /* Part 8 */
+    .kaguyaP8
+    {
+        font-size: 120%;
+        line-height: 1.6;
+        width: 80%;
+        margin-bottom: 20%;
+    }
+
+    /* Part 9 */
+    .kaguyaP9
+    {
+        font-size: 200%;
+        margin-left: 5%;
+        margin-bottom: 30%;
+    }
+
+    .kaguyaP9 img
+    {
+        width: 90%;
+    }
+
+    /* Part 10 */
+    .kaguyaP10
+    {
+        align-items: center;
+        font-size: 150%;
+        margin-left: 0;
+        margin-bottom: 30%;
+    }
+
+    .kaguyaP10 a
+    {
+        margin-right: 15%;
+    }
+
+    .kaguyaP10_1
+    {
+        flex-direction: column;
+    }
+
+    .kaguyaP10 img
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /* Part 11 */
+    .kaguyaP11
+    {
+        margin-left: 0;
+    }
+
+    .kaguyaP11 p
+    {
+        display: none;
+    }
+
+    .kaguyaP11_title
+    {
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+
+    .kaguyaP11 span
+    {
+        width: 45%;
+    }
+
+    .kaguyaP11_title span
+    {
+        display: block;
+    }
+
+    .kaguyaP11_1 img, .kaguyaP11_2 img
+    {
+        width: 90%;
+        border: 1px solid grey;
+    }
+}

@@ -1,0 +1,19 @@
+.footer
+{
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.backTop
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.backTop img
+{
+    width: 100px;
+}

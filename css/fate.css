@@ -1,0 +1,700 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 450%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.fateCtn
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fateCtn img
+{
+    width: 35%;
+}
+
+.right
+{
+    color: white;
+}
+
+/* Slider */
+.slider-for
+{
+    width: 100%;
+} 
+
+.slider-nav
+{
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* UBW */
+.ubwCtn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.ubwTitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    width: 100%;
+    margin-right: 18%;
+    margin-bottom: 5%;
+}
+
+.ubwTitle .left
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ubwStory
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.ubwStory .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.ubwStory .ctn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ff0031;
+    font-size: 170%;
+    line-height: 3.0;
+    width: 90%;
+    opacity: 90%;
+}
+
+.ubwOpinion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ubwOpinion .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.ubwOpinion .ctn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ubwOpinion .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: left;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 2.5;
+}
+
+.ubwOpinion .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 150%;
+    line-height: 4.0;
+    margin-right: 10%;
+}
+
+/* HF */
+.hfCtn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.hfTitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    width: 100%;
+    margin-right: 22%;
+    margin-bottom: 5%;
+}
+
+.hfTitle .left
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hfStory
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.hfStory .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.hfStory .ctn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    color: #ff0031;
+    width: 80%;
+    line-height: 3.0;
+    font-size: 150%;
+    opacity: 90%;
+}
+
+.hfOpinion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hfOpinion .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.hfOpinion .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hfOpinion .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: left;
+    font-size: 150%;
+    margin-right: 10%;
+    line-height: 3.0;
+}
+
+.hfOpinion .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 150%;
+    line-height: 3.0;
+}
+
+/* FZ */
+.fzCtn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.fzTitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.fzTitle .left
+{
+    margin-right: 5%;
+}
+
+.fzTitle .right
+{
+    margin-right: 15%;
+}
+
+.fzStory
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.fzStory .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.fzStory .ctn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    color: #ff0031;
+    width: 80%;
+    line-height: 3.0;
+    font-size: 180%;
+    opacity: 90%;
+}
+
+.fzOpinion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.fzOpinion .title
+{
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-right: 12%;
+}
+
+.fzOpinion .ctn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.fzOpinion .ctnLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    text-align: left;
+    font-size: 150%;
+    margin-right: 10%;
+    line-height: 2.5;
+}
+
+.fzOpinion .ctnRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 150%;
+    line-height: 2.5;
+}
+
+@media only screen and (max-width:768px)
+{
+    .pageTitle p
+    {
+        font-size: 300%;
+    }
+
+    .slider-nav
+    {
+        margin-left: 25%;
+    }
+
+    .fateCtn
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fateCtn img
+    {
+        width: 100%;
+    }
+
+    /* UBW */
+    .ubwCtn
+    {
+        margin-left: 10%;
+    }
+
+    .ubwTitle
+    {
+        margin-left: 10%;
+        font-size: 300%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+    .ubwStory
+    {
+        width: 90%;
+    }
+
+    .ubwStory .title
+    {
+        font-size: 250%;
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+
+    .ubwStory .ctn
+    {
+        font-size: 150%;
+        line-height: 2.0;
+    }
+
+    .ubwOpinion .title
+    {
+        margin-left: 18%;
+    }
+
+    .ubwOpinion .ctn
+    {
+        width: 100%;
+    }
+
+    .ubwOpinion .ctnLeft
+    {
+        width: 50%;
+        line-height: 1.6;
+    }
+
+    .ubwOpinion .ctnRight
+    {
+        width: 40%;
+        margin-left: 10%;
+        line-height: 1.6;
+    }
+
+    /* HF */
+    .hfCtn
+    {
+        margin-left: 10%;
+    }
+
+    .hfTitle
+    {
+        margin-left: 10%;
+        font-size: 300%;
+        margin-right: 17%;
+        margin-bottom: 10%;
+    }
+
+    .hfStory
+    {
+        width: 90%;
+    }
+
+    .hfStory .title
+    {
+        font-size: 250%;
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+
+    .hfStory .ctn
+    {
+        width: 90%;
+        font-size: 150%;
+        line-height: 2.0;
+    }
+
+    .hfOpinion .title
+    {
+        margin-left: 18%;
+    }
+
+    .hfOpinion .ctn
+    {
+        width: 100%;
+    }
+
+    .hfOpinion .ctnLeft
+    {
+        width: 40%;
+        line-height: 1.6;
+    }
+
+    .hfOpinion .ctnRight
+    {
+        width: 30%;
+        line-height: 1.6;
+    }
+
+    /* FZ */
+    .fzCtn
+    {
+        margin-left: 10%;
+    }
+
+    .fzTitle
+    {
+        margin-left: 10%;
+        font-size: 300%;
+        margin-left: 18%;
+        margin-bottom: 10%;
+    }
+
+    .fzStory
+    {
+        width: 100%;
+    }
+
+    .fzStory .title
+    {
+        font-size: 250%;
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+
+    .fzStory .ctn
+    {
+        width: 90%;
+        font-size: 150%;
+        line-height: 2.0;
+    }
+
+    .fzOpinion .title
+    {
+        margin-left: 18%;
+    }
+
+    .fzOpinion .ctn
+    {
+        width: 100%;
+    }
+
+    .fzOpinion .ctnLeft
+    {
+        width: 40%;
+        font-size: 150%;
+        line-height: 1.6;
+    }
+
+    .fzOpinion .ctnRight
+    {
+        width: 30%;
+        font-size: 120%;
+        line-height: 1.6;
+    }
+}
+
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 250%;
+    }
+
+    /* UBW */
+    .ubwTitle
+    {
+        font-size: 180%;
+    }
+
+    .ubwStory .title
+    {
+        font-size: 200%;
+    }
+
+    .ubwStory .ctn
+    {
+        font-size: 120%;
+        line-height: 2.0;
+        margin-bottom: 20%;
+    }
+
+    .ubwOpinion .title
+    {
+        font-size: 200%;
+    }
+
+    .ubwOpinion .ctnLeft
+    {
+        width: 50%;
+        font-size: 125%;
+    }
+
+    .ubwOpinion .ctnRight
+    {
+        width: 50%;
+        font-size: 125%;
+    }
+
+    /* HF */
+    .hfTitle
+    {
+        font-size: 180%;
+    }
+
+    .hfStory .title
+    {
+        font-size: 200%;
+    }
+
+    .hfStory .ctn
+    {
+        font-size: 120%;
+        line-height: 2.0;
+        margin-bottom: 20%;
+    }
+
+    .hfOpinion .title
+    {
+        font-size: 200%;
+    }
+
+    .hfOpinion .ctnLeft
+    {
+        width: 50%;
+        font-size: 125%;
+    }
+
+    .hfOpinion .ctnRight
+    {
+        width: 50%;
+        font-size: 125%;
+    }
+
+    /* FZ */
+    .fzTitle
+    {
+        font-size: 250%;
+    }
+
+    .fzStory .title
+    {
+        font-size: 200%;
+    }
+
+    .fzStory .ctn
+    {
+        font-size: 120%;
+        line-height: 2.0;
+        margin-bottom: 20%;
+    }
+
+    .fzOpinion .title
+    {
+        font-size: 200%;
+        margin-bottom: 10%;
+    }
+
+    
+    .fzOpinion .ctn
+    {
+        width: 80%;
+    }
+
+    .fzOpinion .ctnLeft
+    {
+        width: 70%;
+        font-size: 110%;
+    }
+
+    .fzOpinion .ctnRight
+    {
+        width: 70%;
+        font-size: 110%;
+    }
+}

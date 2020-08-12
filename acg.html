@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xe:non | ACG</title>
+        <link rel="icon" href="img/xenon.png" type="image/png" sizes="32x32">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/acg.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="/js/backTop.js"></script>
+    </head>
+    <body>
+        <!-- NavBar -->
+        <div class="navbar">
+            <div class="nav_Ctn">
+                <ul>
+                    <div class="ctn">
+                        <li><a href="index.html"><img src="/img/home_icon.png" class="nav_logo"></a></li>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="characters.html">Characters</a></li>
+                        <div class="pic_Icon">
+                            <li><a href="ereshkigal.html"><img src="/img/eresh_icon.png"></a></li>
+                            <li><a href="kaguya.html"><img src="/img/kaguya_icon.png"></a></li>
+                        </div>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="acg.html">ACG</a></li>
+                        <div class="pic_Icon">                       
+                            <li><a href="kaguyasama.html"><img src="/img/kaguyasama_icon.png"></a></li>
+                            <li><a href="fate.html"><img src="/img/fate_icon.png"></a></li>
+                        </div>
+                    </div>
+                    <div class="ctn" id="ctn">
+                        <li><a href="games.html">Games</a></li>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="seiyuu.html">Voice Actor</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <!-- NavBar Hamburger -->
+        <div class="curtainContainer">
+            <div class="curtain">
+                <span></span>
+                <span></span>
+                <span>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html"><img src="/img/home_icon.png" class="nav_logo"></a></li>
+                            <li><a href="characters.html">Characters</a></li>
+                            <div class="navHam_pic_Icon">
+                                <li><a href="ereshkigal.html"><img src="/img/eresh_icon.png"></a></li>
+                                <li><a href="kaguya.html"><img src="/img/kaguya_icon.png"></a></li>
+                            </div>
+                            <li><a href="acg.html">ACG</a></li>
+                            <div class="navHam_pic_Icon">                       
+                                <li><a href="kaguyasama.html"><img src="/img/kaguyasama_icon.png"></a></li>
+                                <li><a href="fate.html"><img src="/img/fate_icon.png"></a></li>
+                            </div>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="seiyuu.html">Voice Actor</a></li>
+                        </ul>
+                    </div>    
+                </span>      
+            </div>
+            <div class="navOpen">
+                <div class="navOpenHam"></div>
+            </div>
+            <script>
+                $(document).ready(function () 
+                {
+                    $(".navOpen").click(function () 
+                    { 
+                        $(".curtain").toggleClass("setOpen");
+                    });
+    
+                });
+            </script>
+        </div>
+        <script src="/js/navbar.js"></script>
+
+        <!-- Content -->
+        <div class="pageTitle">
+            <p>ACG</p>
+        </div>
+        <div class="container">
+            <div class="acgCtn">
+                <div class="acgTop">
+                    <div class="acgIntro" data-aos="flip-right">
+                        <div class="title">
+                            <p>簡介</p>
+                        </div>
+                        <div class="ctn">
+                            <p>ACG，意旨Anime（動画）、Comic（漫画）以及Games（游戲），也可以被称作二次元。<br>
+                                這詞匯主要来自于華人地区的次文化，多用指来自日本的動漫及電玩作品，且随着二次元這個詞的延伸性，ACG在現在也不太算單純指日本製品。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acgOrigin" data-aos="flip-left">
+                        <div class="title">
+                            <p>起源</p>
+                        </div>
+                        <div class="ctn">
+                            <p>
+                                1995年，台湾的台湾愛好者Alplus在国立中山大学山抹微云BBS站站開設新版面，使用“ACG_Review板”作爲名称以代動画、漫画、游戲，正是“ACG”一詞的開始。<br>
+                                在傻呼嚕同盟的推广下，ACG才被流傳了下去。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="acgRecommend">
+                    <div class="title" data-aos="flip-down">
+                        <span class="left">動畫</span><span class="right">推薦</span><br>
+                    </div>
+                    <div class="ctn" data-aos="flip-left">
+                        <div class="ctnLeft">
+                            <p class="left">接下來我會推薦幾部<br>同樣礙於篇幅問題<br>網頁來<br>底下</p>
+                        </div>
+                        <div class="ctnRight">
+                            <p class="right">我個人愛看的幾部動畫<br>我也會拆分成兩個<br>分別介紹<br>傳送門</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- URL -->
+                <div class="acgURL">
+                    <div class="ctnLeft" data-aos="flip-right">
+                        <a href="#"><img src="/img/kaguyasama_icon.png" alt="kaguyasama" class="left"></a>
+                        <a href="#"><img src="/img/fate_icon.png " alt="fate" class="left"></a>
+                    </div>
+                    <div class="ctnRight" data-aos="flip-left">
+                        <div class="right">
+                            <a href="#"><p class="right">輝夜大小姐想讓人告白<br>天才們的戀愛頭腦戰</p></a>
+                        </div>
+                        <div class="right">
+                            <a href="#"><p class="right">命運</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="backTop">
+                <img src="/img/top_icon.png" class="scrollToTop" alt="back to top">
+            </div>
+        </div>
+    </body>
+</html>

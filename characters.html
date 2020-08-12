@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xe:non | Characters</title>
+        <link rel="icon" href="img/xenon.png" type="image/png" sizes="32x32">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/chara.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/backTop.js"></script>
+    </head>
+    <body>
+        <!-- NavBar -->
+        <div class="navbar">
+            <div class="nav_Ctn">
+                <ul>
+                    <div class="ctn">
+                        <li><a href="index.html"><img src="img/home_icon.png" class="nav_logo"></a></li>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="characters.html">Characters</a></li>
+                        <div class="pic_Icon">
+                            <li><a href="ereshkigal.html"><img src="img/eresh_icon.png"></a></li>
+                            <li><a href="kaguya.html"><img src="img/kaguya_icon.png"></a></li>
+                        </div>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="acg.html">ACG</a></li>
+                        <div class="pic_Icon">                       
+                            <li><a href="kaguyasama.html"><img src="img/kaguyasama_icon.png"></a></li>
+                            <li><a href="fate.html"><img src="img/fate_icon.png"></a></li>
+                        </div>
+                    </div>
+                    <div class="ctn" id="ctn">
+                        <li><a href="games.html">Games</a></li>
+                    </div>
+                    <div class="ctn">
+                        <li><a href="seiyuu.html">Voice Actor</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <!-- NavBar Hamburger -->
+        <div class="curtainContainer">
+            <div class="curtain">
+                <span></span>
+                <span></span>
+                <span>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html"><img src="img/home_icon.png" class="nav_logo"></a></li>
+                            <li><a href="characters.html">Characters</a></li>
+                            <div class="navHam_pic_Icon">
+                                <li><a href="ereshkigal.html"><img src="img/eresh_icon.png"></a></li>
+                                <li><a href="kaguya.html"><img src="img/kaguya_icon.png"></a></li>
+                            </div>
+                            <li><a href="acg.html">ACG</a></li>
+                            <div class="navHam_pic_Icon">                       
+                                <li><a href="kaguyasama.html"><img src="img/kaguyasama_icon.png"></a></li>
+                                <li><a href="fate.html"><img src="img/fate_icon.png"></a></li>
+                            </div>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="seiyuu.html">Voice Actor</a></li>
+                        </ul>
+                    </div>    
+                </span>      
+            </div>
+            <div class="navOpen">
+                <div class="navOpenHam"></div>
+            </div>
+            <script>
+                $(document).ready(function () 
+                {
+                    $(".navOpen").click(function () 
+                    { 
+                        $(".curtain").toggleClass("setOpen");
+                    });
+    
+                });
+            </script>
+        </div>
+        <script src="js/navbar.js"></script>
+
+        <!-- Content -->
+        <div class="pageTitle">
+            <p>Characters</p>
+        </div>
+        <div class="container">
+            <div class="charaCtn">
+                <div class="charaIntro">
+                    <div class="title" data-aos="flip-up">
+                        <span class="left">簡</span><span class="right">介</span><br>
+                    </div>
+                    <div class="ctn" data-aos="flip-right">
+                        <div class="ctnLeft">
+                            <p class="left">接下來，我會介紹兩個我<br>其中會涵蓋角色的介紹<br>藏以及我的一些小小心<br>分成兩個網頁來<br>底下我會</p>
+                        </div>
+                        <div class="ctnRight">
+                            <p class="right">個人非常喜歡的動畫角色<br>、其配音員、角色詳細、收<br>得。礙於篇幅問題，我決定<br>分別介紹兩個角色。<br>附上傳送門。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile -->
+                <div class="charaIntroMobile">
+                    <div class="title" data-aos="flip-up">
+                        <span class="left">簡</span><span class="right">介</span><br>
+                    </div>
+                    <div class="ctn" data-aos="flip-right">
+                        <div class="ctnLeft">
+                            <p class="left">接下來，我會介紹<br>角色。其中涵蓋角色<br>色詳細、收藏以及我<br>篇幅問題，我決定<br>別介紹兩個角色。</p>
+                        </div>
+                        <div class="ctnRight">
+                            <p class="right">兩個我喜歡的動畫<br>的介紹、其配音員、角<br>的一些小小心得。礙於<br>分成兩個網頁來分<br>底下我會附傳送門。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- URL -->
+                <div class="charaURL">
+                    <div class="ctnLeft" data-aos="flip-right">
+                        <a href="ereshkigal.html"><img src="img/eresh_icon.png" alt="ereshkigal" class="left"></a>
+                        <a href="kaguya.html"><img src="img/kaguya_icon.png" alt="kaguya" class="left"></a>
+                    </div>
+                    <div class="ctnRight" data-aos="flip-left">
+                        <div class="right">
+                            <a href="ereshkigal.html"><p class="right">艾蕾修卡</p></a>
+                        </div>
+                        <div class="right">
+                            <a href="kaguya.html"><p class="right">四宮輝夜</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="backTop">
+                <img src="img/top_icon.png" class="scrollToTop" alt="back to top">
+            </div>
+        </div>
+    </body>
+</html>

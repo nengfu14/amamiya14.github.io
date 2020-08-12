@@ -1,0 +1,359 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    background-image: url("../img/webbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    cursor: url("../img/cursor.png"),pointer;
+}
+
+html,body a,button,input,textarea,.backTop
+{
+    cursor: url("../img/pointer.png"),pointer;
+}
+
+/* NavBar */
+.navbar
+{
+    padding-left: 3%;
+    padding-top: 1%;
+    position: fixed;
+    width: 250px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+}
+
+@font-face
+{
+    font-family: navFont;
+    src: url("font/ScriptMTBold.ttf");
+}
+
+.navbar li,.navHam li
+{
+    list-style: none;
+    font-family: navFont;
+    font-size: 200%;
+}
+
+.nav_Ctn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_Ctn .ctn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.nav_Ctn #ctn
+{
+    margin-bottom: 40%;
+}
+
+.navbar .nav_logo
+{
+    width: 70%;
+    height: 70%;
+    padding-bottom: 5%;
+}
+
+.navbar .pic_Icon
+{
+    display: flex;
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.navbar .pic_Icon li
+{
+    display: inline;
+}
+
+.navbar .pic_Icon img
+{
+    width: 40%;
+    height: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* NavHamburger */
+.navOpen
+{
+    z-index: 99;
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    background-color: #2C2C2C;
+}
+
+.navOpenHam
+{
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background: white;
+    transition: all .5s ease-in-out;
+}
+
+.navOpenHam::before,
+.navOpenHam::after
+{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background: white;
+    transition: all .5s ease-in-out;
+}
+
+.navOpenHam::before
+{
+    transform: translateY(-16px);
+}
+
+.navOpenHam::after
+{
+    transform: translateY(16px);
+}
+
+/* Animation Ham */
+.navOpen.open .navOpenHam
+{
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.navOpen.open .navOpenHam::before
+{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.navOpen.open .navOpenHam::after
+{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* CurtainMenu */
+.setOpen
+{
+    z-index: 99;
+    display: block;
+}
+
+.curtain
+{
+    position: sticky;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Curtain Animation */
+.curtain span
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform-origin: bottom left;
+    transition: 0.5s ease-in-out;
+    transform: rotate(-90deg);
+}
+
+.curtain span:nth-child(1)
+{
+    background: #FF0031;
+    transform: rotate(-90deg);
+    transition-delay: 0.2s;
+}
+
+.curtain span:nth-child(2)
+{
+    background:black;
+    transform: rotate(-90deg);
+    transition-delay: 0.1s;
+}
+
+.curtain span:nth-child(3)
+{
+    background: white;
+    transform: rotate(-90deg);
+    transition-delay: 0s;
+}
+
+.curtain.setOpen span:nth-child(1)
+{
+    z-index: 1;
+    transition-delay: 0s;
+}
+
+.curtain.setOpen span:nth-child(2)
+{
+    z-index: 2;
+    transition-delay: 0.1s;
+}
+
+.curtain.setOpen span:nth-child(3)
+{
+    z-index: 3;
+    transition-delay: 0.2s;
+}
+
+.curtain.setOpen span
+{
+    transform: rotate(0deg);
+}
+
+.curtain.setOpen ul
+{
+    display: block;
+    transition-delay: 0.7s;
+}
+
+/* Curtain Menu */
+.curtain .menu
+{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curtain ul li ,.curtain a
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    font-family: navFont;
+}
+
+.curtain ul li
+{
+    padding-bottom: 20% ;
+}
+
+.curtain .navHam_pic_Icon
+{
+    padding-bottom: 20%;
+}
+
+.curtain .navHam_pic_Icon img
+{
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 30%;
+}
+
+.curtain .navHam_pic_Icon img
+{
+    width: 80px;
+    height: auto;
+}
+
+.curtain .nav_logo
+{
+    width: 180px;
+}
+
+.curtain .navHam_pic_Icon li
+{
+    display: inline;
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:768px)
+{
+    .navbar
+    {
+        display: none;
+    }
+
+    .navOpen
+    {
+        visibility: visible;
+    }
+
+    .navHam
+    {
+        display: block;
+    }
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:425px)
+{
+    .navbar
+    {
+        display: none;
+    }
+
+    .navOpen
+    {
+        visibility: visible;
+    }
+
+    .navHam
+    {
+        display: block;
+    }
+
+    .navOpen
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navOpenHam
+    {
+        width: 40px;
+        height: 4px;
+    }
+
+    .navOpenHam::before,
+    .navOpenHam::after
+    {
+        width: 40px;
+        height: 4px;
+    }
+}

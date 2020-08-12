@@ -1,0 +1,227 @@
+.pageTitle
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1%;
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url("font/GN-Fuyu-iro_Script_Regular.ttf");
+}
+
+.pageTitle p
+{
+    font-size: 350%;
+    color: white;
+    font-family: titleFont;
+    writing-mode: vertical-rl;
+}
+
+/* Content */
+.container
+{
+    max-width: 1950px;
+}
+
+@font-face
+{
+    font-family: ctnFont;
+    src: url("font/UDDigiKyokashoN-R.ttc");
+}
+
+.charaCtn
+{
+    max-width: 1950px;
+    font-family: ctnFont;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.charaCtn .right
+{
+    color: white;
+}
+
+.charaIntro
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10%;
+    padding-left: 3%;
+    margin-bottom: 10%;
+}
+
+.charaIntroMobile
+{
+    display: none;
+    margin-top: 10%;
+    padding-left: 3%;
+    margin-bottom: 10%;
+}
+
+.charaIntro .ctn,.charaIntroMobile .ctn
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.charaIntro .left,.charaIntro .right,.charaIntroMobile .left,.charaIntroMobile .right
+{
+    font-size: 200%;
+}
+
+.charaIntro .title,.charaIntroMobile .title
+{
+    font-size: 150%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.charaIntroMobile .title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ctn .ctnLeft 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    text-align: right;
+}
+
+.ctn .ctnRight 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+.charaURL
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.charaURL .ctnLeft 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.charaURL .ctnLeft img
+{
+    width: 60%;
+    padding-bottom: 50%;
+}
+
+.charaURL .ctnRight 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.charaURL .ctnRight .right
+{
+    font-size: 200%;
+    padding-top: 10%;
+    padding-bottom: 40%;
+}
+
+.charaURL a
+{
+    text-decoration: none;
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width:768px)
+{
+    .charaIntro .left,.charaIntro .right
+    {
+        font-size: 140%;
+    }
+
+    .charaURL .ctnRight .right
+    {
+        font-size: 150%;
+    }
+
+    .charaIntroMobile
+    {
+        display: none;
+    }
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width:425px)
+{
+    .pageTitle p
+    {
+        font-size: 200%;
+    }
+
+
+    .charaIntro .left,.charaIntro .right
+    {
+        font-size: 120%;
+    }
+
+    .charaURL .ctnRight .right
+    {
+        font-size: 120%;
+    }
+
+    .charaIntro
+    {
+        display: none;
+    }
+
+    .charaIntroMobile
+    {
+        display: block;
+        padding-left: 16%;
+    }
+
+    .charaIntroMobile .left,.charaIntroMobile .right
+    {
+        font-size: 100%;
+        line-height: 70px;
+    }
+
+    .charaCtn
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .charaURL .ctnRight
+    {
+        padding-right: 10%;
+    }
+
+    .charaIntroMobile .title
+    {
+        padding-right: 19%;
+    }
+}
