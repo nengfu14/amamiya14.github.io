@@ -384,11 +384,49 @@
 }
 
 /* Responsive Tablet */
-@media only screen and (max-width:1024px)
+@media only screen and (max-width:1150px)
 {
     .slogan .left,.slogan .right
     {
         font-size: 300%;
+    }
+
+    .homeAbout .title
+    {
+        font-size: 150%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 150%;
+    }
+
+    .homeProfile .title
+    {
+        font-size: 125%;
+    }
+}
+
+@media only screen and (max-width:823px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 250%;
+    }
+
+    .homeAbout .title
+    {
+        font-size: 150%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 150%;
+    }
+
+    .homeProfile .title
+    {
+        font-size: 125%;
     }
 }
 
@@ -458,6 +496,32 @@
 }
 
 /* Responsive Mobile */
+@media only screen and (max-width:580px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 180%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width:450px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 180%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 100%;
+    }
+}
+
 @media only screen and (max-width:425px)
 {
     /* Loader */
@@ -489,7 +553,7 @@
     /* About Website */
     .homeAbout .left,.homeAbout .right
     {
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .ctn .ctnLeft
@@ -565,7 +629,15 @@
     }
 }
 
-@media only screen and (max-width:375px)
+@media only screen and (max-width:411px)
+{
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width:383px)
 {
     .slogan .left,.slogan .right
     {
@@ -578,7 +650,7 @@
     }
 }
 
-@media only screen and (max-width:320px)
+@media only screen and (max-width:350px)
 {
     .slogan .left,.slogan .right
     {
