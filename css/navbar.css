@@ -301,6 +301,14 @@ html,body a,button,input,textarea,.backTop
     display: inline;
 }
 
+@media only screen and (max-width:1024px)
+{
+    .navbar
+    {
+        width: 20%;
+    }
+}
+
 /* Responsive Tablet */
 @media only screen and (max-width:768px)
 {

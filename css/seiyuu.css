@@ -420,6 +420,25 @@
 }
 
 /* Responsive Tablet */
+@media only screen and (max-width:1024px)
+{
+    .IntroRight
+    {
+        font-size: 130%;
+    }
+
+    .VASinger .ctnA
+    {
+        margin-left: 10%;
+    }
+
+    .album2 img,.album1 img
+    {
+        width: 50%;
+    }
+}
+
+
 @media only screen and (max-width:768px)
 {
     .pageTitle p

@@ -350,8 +350,8 @@
     line-height: 50px;
     width: 40%;
     font-size: 150%;
+    margin-left: 10%;
     text-align: left;
-    padding-right: 5%;
 }
 
 .kaguyaSReason .ctn .ctnRight 
@@ -359,10 +359,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 40%;
+    width: 50%;
     font-size: 150%;
     line-height: 60px;
-    padding-left: 5%;
+    margin-left: 15%;
 }
 
 /* Collection & Opinion */
@@ -400,7 +400,7 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
 }
 
@@ -418,6 +418,46 @@
 }
 
 /* Responsive Tablet */
+@media only screen and (max-width:1024px)
+{
+    .kaguyaSstory .left,.kaguyaSstory .right
+    {
+        font-size: 130%;
+    }
+
+    .kaguyaSChara .ctn
+    {
+        margin-left: 5%;
+    }
+
+    .kaguyaSReason .ctn .ctnLeft
+    {
+        margin-left: 5%;
+        width: 50%;
+    } 
+
+    .kaguyaSReason .ctn .ctnRight 
+    {
+        width: 50%;
+    }
+
+    .kaguyaSCollection .title
+    {
+        padding-bottom: 15%;
+    }
+
+    .kaguyaSCollection img
+    {
+        width: 80%;
+    }
+
+    .kaguyaSOpinion
+    {
+        width: 70%;
+        padding-left: 10%;
+    }
+}
+
 @media only screen and (max-width:768px)
 {
     .pageTitle p
@@ -492,6 +532,11 @@
         font-size: 200%;
     }
 
+    .kaguyaSChara .ctn
+    {
+        margin-left: 0;
+    }
+
     .chara1,.chara2,.chara3,
     .chara4,.chara5,.chara6,
     .chara7
@@ -507,13 +552,16 @@
 
     .kaguyaSReason .ctn .ctnLeft 
     {
+        width: 40%;
         font-size: 130%;
     }
 
     .kaguyaSReason .ctn .ctnRight
     {
+        width: 40%;
         line-height: 58px;
         font-size: 130%;
+        margin-left: 5%;
     }
 
     /* Collection & Opinion */
@@ -535,6 +583,7 @@
 
     .kaguyaSOpinion
     {
+        width: 48%;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -691,5 +740,31 @@
     {
         font-size: 125%;
         line-height: 35px;
+    }
+}
+
+@media only screen and (max-width:375px)
+{
+    .kaguyaSIntroLeft a
+    {
+        width: 75%;
+    }
+
+    .kaguyaSstoryMobile .left,.kaguyaSstoryMobile .right
+    {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .kaguyaSIntroLeft a
+    {
+        width: 90%;
+    }
+
+    .kaguyaSstoryMobile .left,.kaguyaSstoryMobile .right
+    {
+        font-size: 90%;
     }
 }

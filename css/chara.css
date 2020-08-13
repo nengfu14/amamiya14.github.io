@@ -74,7 +74,7 @@
 
 .charaIntro .left,.charaIntro .right,.charaIntroMobile .left,.charaIntroMobile .right
 {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .charaIntro .title,.charaIntroMobile .title
@@ -181,10 +181,9 @@
         font-size: 200%;
     }
 
-
-    .charaIntro .left,.charaIntro .right
+    .container
     {
-        font-size: 120%;
+        overflow: hidden;
     }
 
     .charaURL .ctnRight .right
@@ -200,12 +199,17 @@
     .charaIntroMobile
     {
         display: block;
-        padding-left: 16%;
+        padding-left: 12%;
+    }
+
+    .charaIntroMobile .title
+    {
+        padding-right: 14%;
     }
 
     .charaIntroMobile .left,.charaIntroMobile .right
     {
-        font-size: 100%;
+        font-size: 110%;
         line-height: 70px;
     }
 
@@ -219,9 +223,50 @@
     {
         padding-right: 10%;
     }
+}
+
+@media only screen and (max-width:375px)
+{
+    .charaIntroMobile
+    {
+        display: block;
+        padding-left: 12%;
+    }
+
+    .charaIntroMobile .left,.charaIntroMobile .right
+    {
+        font-size: 100%;
+        line-height: 70px;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .charaIntroMobile
+    {
+        display: block;
+        padding-left: 8%;
+    }
 
     .charaIntroMobile .title
     {
-        padding-right: 19%;
+        margin-left: 5%;
+    }
+
+    .charaIntroMobile .title .left,.charaIntroMobile .title .right
+    {
+        font-size: 30px;
+    }
+
+    .charaIntroMobile .left,.charaIntroMobile .right
+    {
+        font-size: 15px;
+        line-height: 70px;
+    }
+
+    .charaIntroMobile .ctnLeft,.charaIntroMobile .ctnRight
+    {
+        font-size: 15.5px;
+        line-height: 70px;
     }
 }

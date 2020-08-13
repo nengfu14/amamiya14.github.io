@@ -601,6 +601,64 @@
 }
 
 /* Responsive Tablet */
+@media only screen and (max-width:1024px)
+{
+    .gamesFeatures .ctn
+    {
+        font-size: 21px;
+    }
+
+    .gamesChange .ctn
+    {
+        font-size: 20px;
+    }
+
+    .gamesShot .ctn
+    {
+        margin-left: 7%;
+    }
+
+    .gamesP3 .title1
+    {
+        font-size: 250%;
+    }
+
+    .gamesP3 .ctnCenter
+    {
+        margin-left: 5%;
+    }
+
+    .gamesP4 .title1
+    {
+        font-size: 250%;
+    }
+
+    .gamesP4 .ctnCenter
+    {
+        margin-left: 10%;
+    }
+
+    .gamesP4 .ctn1
+    {
+        font-size: 200%;
+    }
+
+    .gamesP5 .title1
+    {
+        font-size: 250%;
+    }
+
+    .gamesP5 .ctnCenter
+    {
+        margin-left: 10%;
+    }
+
+    .gamesP5 .ctn1
+    {
+        font-size: 200%;
+    }
+}
+
 @media only screen and (max-width:768px)
 {
     .pageTitle p
@@ -726,6 +784,11 @@
         width: 100%;
     }
 
+    .gamesP3 .ctnCenter
+    {
+        margin-left: 0;
+    }
+
     .gamesP3 .title1 .right
     {
         padding-left: 10%;
@@ -763,6 +826,11 @@
     {
         margin-top: 30%;
         width: 100%;
+    }
+
+    .gamesP4 .ctnCenter
+    {
+        margin-left: 0;
     }
 
     .gamesP4 .title1 .right
@@ -810,6 +878,11 @@
         margin-top: 30%;
         margin-bottom: 10%;
         width: 100%;
+    }
+
+    .gamesP5 .ctnCenter
+    {
+        margin-left: 0;
     }
 
     .gamesP5 .title1 .right
@@ -1210,5 +1283,66 @@
         width: 55%;
         font-size: 120%;
         line-height: 1.6;
+    }
+}
+
+@media only screen and (max-width:375px)
+{
+    .gamesFeaturesMobile .ctn
+    {
+        font-size: 15px;
+    }
+
+    .gamesChangeMobile .ctn
+    {
+        font-size: 15px;
+    }
+
+    .gamesP3 .ctn1
+    {
+        font-size: 180%;
+    }
+
+    .gamesP5 .ctn1Mobile
+    {
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width:425px)
+{
+    .gamesFeaturesMobile .ctn
+    {
+        font-size: 13px;
+    }
+
+    .gamesChangeMobile .ctn
+    {
+        font-size: 13px;
+    }
+
+    .gamesP3 .title1
+    {
+        font-size: 150%;
+    }
+
+    .gamesP3 .ctn1
+    {
+        font-size: 150%;
+    }
+
+    .gamesP4 .title1
+    {
+        font-size: 150%;
+    }
+
+    .gamesP4 .ctn1Mobile
+    {
+        font-size: 140%;
+    }
+
+    .gamesP5 .ctn1Mobile
+    {
+        font-size: 120%;
     }
 }

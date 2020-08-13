@@ -78,6 +78,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -92,7 +93,7 @@
 
 .slogan .left,.slogan .right
 {
-   font-size: 400%;
+    font-size: 400%;
 }
 
 .right
@@ -383,6 +384,14 @@
 }
 
 /* Responsive Tablet */
+@media only screen and (max-width:1024px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 300%;
+    }
+}
+
 @media only screen and (max-width:768px)
 {
     /* Content */
@@ -401,7 +410,7 @@
     /* Xe:non Welcome To A Nevereverland */
     .slogan .left,.slogan .right
     {
-        font-size: 300%;
+        font-size: 40px;
     }
 
     /* About Website */
@@ -462,15 +471,35 @@
         width: 70%;
     }
 
+    .homeAbout
+    {
+        line-height: 1.6;
+    }
+
     .slogan .left,.slogan .right
     {
         font-size: 200%;
     }
 
+    .homeIntro
+    {
+        margin-top: 10%;
+    }
+
     /* About Website */
     .homeAbout .left,.homeAbout .right
     {
-        font-size: 100%;
+        font-size: 120%;
+    }
+
+    .ctn .ctnLeft
+    {
+        line-height: 2.5;
+    }
+
+    .ctn .ctnRight
+    {
+        line-height: 2.5;
     }
 
     /* About Me */
@@ -497,7 +526,12 @@
 
     .homeMore .left,.homeMore .right
     {
-        font-size: 150%;
+        font-size: 20px;
+    }
+
+    #year,#month,#day
+    {
+        width: 50px;
     }
 
     .contactTop
@@ -530,3 +564,30 @@
         width: 50%;
     }
 }
+
+@media only screen and (max-width:375px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 180%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .slogan .left,.slogan .right
+    {
+        font-size: 150%;
+    }
+
+    .homeAbout .left,.homeAbout .right
+    {
+        font-size: 90%;
+    }
+}
+

@@ -698,3 +698,33 @@
         font-size: 110%;
     }
 }
+
+@media only screen and (max-width:375px)
+{
+    .ubwTitle
+    {
+        font-size: 160%;
+    }
+
+    .ubwOpinion .ctnLeft
+    {
+        width: 70%;
+    }
+
+    .ubwOpinion .ctnRight
+    {
+        width: 50%;
+    }
+
+    .hfOpinion .ctnLeft
+    {
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .hfOpinion .ctnRight
+    {
+        width: 30%;
+        font-size: 18px;
+    }
+}
