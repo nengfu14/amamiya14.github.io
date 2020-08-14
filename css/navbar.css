@@ -9,7 +9,7 @@ html,body
 {
     background-image: url("../img/webbg.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: repeat;
     cursor: url("../img/cursor.png"),pointer;
 }
