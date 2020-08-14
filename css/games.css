@@ -1288,6 +1288,11 @@
 
 @media only screen and (max-width:375px)
 {
+    .pageTitle p
+    {
+        font-size: 200%;
+    }
+
     .gamesFeaturesMobile .ctn
     {
         font-size: 15px;
