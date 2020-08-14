@@ -162,15 +162,16 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15%;
+    width: 100%;
 }
 
 .VAChara .title
 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     font-size: 300%;
-    padding-right: 13%;
+    margin-right: 12%;
     margin-bottom: 5%;
 }
 
@@ -206,7 +207,7 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 150%;
-    width: 50%;
+    width: 40%;
     color: white;
 }
 
@@ -428,6 +429,12 @@
         font-size: 130%;
     }
 
+    .VAChara .ctnLeft
+    {
+        width: 40%;
+        margin-right: 12%;
+    }
+
     .VASinger .ctnA
     {
         margin-left: 10%;
@@ -445,6 +452,11 @@
     .pageTitle p
     {
         font-size: 300%;
+    }
+
+    .container
+    {
+        overflow: hidden;
     }
 
     .VACtn
@@ -567,7 +579,7 @@
 
     .VAChara .title
     {
-        padding-right: 0;
+        margin-left: 12%;
         margin-bottom: 5%;
     }
 
@@ -590,7 +602,7 @@
     .VAChara .ctnRight
     {
         width: 45%;
-        padding-left: 5%;
+        padding-left: 0%;
         line-height: 1.9;
     }
 
@@ -668,7 +680,7 @@
 
     .VASong .ctn
     {
-        margin-left: 10%;
+        margin-left: 0%;
     }
 
     .VASong .ctnLeft
@@ -681,6 +693,7 @@
     .VASong .ctnRight
     {
         line-height: 2.3;
+        width: 40%;
     }
 
     /* Ending */
@@ -722,16 +735,18 @@
     .IntroLeft
     {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .IntroLeft img
     {
-        width: 90%;
+        width: 80%;
     }
 
     .IntroRightMobile
     {
-        font-size: 110%;
+        font-size: 100%;
         width: 100%;
     }
 
@@ -752,6 +767,8 @@
     /* Experience */
     .VAExp .title
     {
+        justify-content: center;
+        align-items: center;
         font-size: 200%;
     }
 
@@ -768,6 +785,7 @@
     /* Character */
     .VAChara .title
     {
+        margin-left: 13%;
         font-size: 200%;
         margin-bottom: 10%;
     }
@@ -785,7 +803,9 @@
 
     .VAChara .ctnRight
     {
+        padding-left: 0;
         font-size: 110%;
+        width: 40%;
     }
 
     .VAChara .ctnRight img
@@ -863,19 +883,35 @@
         font-size: 200%;
     }
 
+    .VAEnding .ctn
+    {
+        margin-left: 2%;
+        width: 90%;
+    }
+
     .VAEnding .ctnLeft
     {
         font-size: 125%;
         line-height: 1.6;
         padding-right: 0;
+        width: 50%;
     }
 
     .VAEnding .ctnRight
     {
-        font-size: 125%;
+        width: 50%;
+        font-size: 120%;
         line-height: 2.0;
         margin-left: 10%;
         padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:375px)
+{
+    .VASong .ctnRight
+    {
+        line-height: 1.6;
     }
 }
 
@@ -902,5 +938,26 @@
     .VAExp .ctnRight
     {
         font-size: 100%;
+    }
+
+    .VASong .ctnLeft
+    {
+        font-size: 120%;
+    }
+
+    .VASong .ctnRight
+    {
+        font-size: 100%;
+        line-height: 1.6;
+    }
+
+    .VAEnding .ctnLeft
+    {
+        line-height: 1.2;
+    }
+
+    .VAEnding .ctnRight
+    {
+        line-height: 1.6;
     }
 }
