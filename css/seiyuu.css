@@ -39,7 +39,6 @@
 
 .VACtn
 {
-    max-width: 1950px;
     font-family: ctnFont;
     display: flex;
     flex-direction: column;
@@ -875,5 +874,24 @@
         line-height: 2.0;
         margin-left: 10%;
         padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .IntroRightMobile
+    {
+        font-size: 90%;
+        width: 100%;
+    }
+
+    .VAExp .ctnLeft
+    {
+        font-size: 100%;
+    }
+
+    .VAExp .ctnRight
+    {
+        font-size: 100%;
     }
 }
