@@ -701,6 +701,11 @@
 
 @media only screen and (max-width:375px)
 {
+    .pageTitle p
+    {
+        font-size: 200%;
+    }
+
     .ubwTitle
     {
         font-size: 160%;
@@ -726,5 +731,18 @@
     {
         width: 30%;
         font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .pageTitle p
+    {
+        font-size: 150%;
+    }
+
+    .ubwTitle
+    {
+        font-size: 140%;
     }
 }
